@@ -1,24 +1,23 @@
 #!/bin/bash
-clear
 
 echo -e "Atualizando as  lista d Apt"
-    apt update
+apt update
 
 echo -e "Atualizando os software"
-    apt -y upgrade
+apt -y upgrade
 
 echo -e "Forçando atualização do sistema"
-    apt -y full-upgrade
+apt -y full-upgrade
 
 echo -e "Forçando atualização de segurança"
-    apt -y dist-upgrade 
+apt -y dist-upgrade 
 
 echo -e "Removendo software desnecessários"
-    apt -y autoremove
-    apt -y autoclean
-    apt clean
+apt -y autoremove
+apt -y autoclean
+apt clean
 
 echo -e "Sistema atualizado, pressione <Enter> para o reboot"
 read
-sleep 10
+sleep 5
 reboot
