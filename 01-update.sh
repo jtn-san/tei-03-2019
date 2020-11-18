@@ -1,5 +1,5 @@
 #!/bin/bash
-#se você usar o VS Code no Windows verificar a codificação LF e Tabulação
+#se você usar o VS Code no Windows verificar a codificação LF e Tabulação por TAB 4
 
 echo -e "Atualizando as  lista d Apt"
 apt update
