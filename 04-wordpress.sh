@@ -20,13 +20,13 @@ echo -e "Atualizando as Listas do Apt"
     apt update
 
 echo -e "Instalando o Gunzip no Ubuntu Server"
-    apt -y install Gunzip
+    apt -y install unzip
 
 echo -e "Download o Wordpress no Ubuntu Server"
     wget https://wordpress.org/latest.zip
 
 echo -e "Descompactando o Wordpress"
-    gunzip latest.zip
+    unzip latest.zip
 
 echo -e "Acessando o diretório do Wordpress"
     cd wordpress
