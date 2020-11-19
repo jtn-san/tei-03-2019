@@ -4,8 +4,8 @@ clear
 #Criando a base de dados no MySQL
 # sudo mysql -u root -p
 # CREATE DATABASE wordpress;
-# CREATE USER 'wordpress' IDENTIFIED BY 'wordpress';
-# GRANT USAGE ON *.* TO 'wordpress' IDENTIFIED BY 'wordpress';
+# CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'wordpress';
+# GRANT USAGE ON *.* TO 'wordpress'@'localhost';
 # GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress';
 # FLUSH PRIVILEGES;
 # exit
